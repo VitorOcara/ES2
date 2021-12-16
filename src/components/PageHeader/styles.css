@@ -1,0 +1,69 @@
+.pageHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar,
+.head{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact {
+    display: flex;
+    width: 30%;
+}
+.box1{
+    margin-left: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.box2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.figure{
+    width: 1.5rem;
+} 
+.social{
+    max-width: 10%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.bottomBar{
+    height: 21vh;
+    width: 100%;
+    margin-bottom: 7vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.boxLogo    {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 8.5rem;
+}
+.logo2{
+    margin-left: -2rem;
+    width: 12rem;
+    height: 70%;
+}
+.navigation{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+}
