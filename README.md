@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+TRELLO:https://trello.com/b/3XlmcD4p/funeraria-santa-luzia
+FIREBASE: https://console.firebase.google.com/u/0/project/funsaintluz/
+DOC:https://docs.google.com/document/d/12zxRxhxyVcOt-9yJv1bH0Wmcsy1VGBhi/edit#heading=h.8dnkx5humysm
+
 In the project directory, you can run:
 
 ### `yarn start`
