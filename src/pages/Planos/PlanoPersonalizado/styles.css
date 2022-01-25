@@ -1,0 +1,73 @@
+.endereco {
+  display: flex;
+}
+.FormCliente p {
+  margin: 1rem 0;
+}
+.FormCliente {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.input {
+  display: flex;
+  border: 0;
+  margin-bottom: 1rem;
+}
+.FormCliente Input {
+  background-color: var(--color-Button);
+  height: 1.2rem;
+  width: 12rem;
+  border-radius: 0.2rem;
+  border: 0;
+}
+.FormCliente strong{
+  margin-bottom: -1rem;
+}
+.endereco {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.itens,
+.label {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+.FormContent {
+  display: flex;
+}
+
+.Button {
+  margin-top: 1rem;
+  border: 0;
+  background-color: var(--color-Button);
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+.FormCliente Button:focus,
+Button:hover {
+  border: 1px solid rgb(83, 66, 241);
+  cursor: pointer;
+  animation: normal;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid black;
+}
+.textContent {
+  display: flex;
+  width: 35%;
+  
+}
+.textContent input {
+  margin-right: 0.8rem;
+}

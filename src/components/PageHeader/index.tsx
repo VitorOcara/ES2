@@ -8,7 +8,6 @@ import linkedin from "../../assets/images/linkedin.png";
 import logo from "../../assets/images/logo-img.png";
 import logoTxt from "../../assets/images/logo-txt.png";
 import { Link } from "react-router-dom";
-import { Button } from "antd";
 
 const PageHeader: React.FC = () => {
   return (

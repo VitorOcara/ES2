@@ -8,6 +8,7 @@
 :root {
   font-family: montserrat;
   --color-background: #e0e0e0;
+  --color-Button:  #C4C4C4;
   --card-home-color: #443986;
 }
 body {
@@ -21,4 +22,7 @@ figure {
 }
 .box {
   padding: 0 2.5rem;
+}
+.ant-form-item-explain-error{
+  color:red;
 }

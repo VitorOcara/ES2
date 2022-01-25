@@ -25,7 +25,6 @@ function Planos() {
         <div className="box">
           <h1>Nossos Planos</h1>
           <div className="separator">
-
             <div className="contentCardPlano">
               <div className="cardTextPlano">
                 <strong style={{ alignSelf: "start" }}>
@@ -38,6 +37,8 @@ function Planos() {
                 <p>Urna Clássica</p>
                 <p>Desconto na sala de Velório</p>
                 <p>Desconto no cerimonial</p>
+                <p>.</p>
+
                 <Button>Saiba Mais</Button>
               </div>
             </div>
@@ -54,6 +55,7 @@ function Planos() {
                 <p>Urna Luxo</p>
                 <p>Sala de Velório</p>
                 <p>Cremação</p>
+                <p>.</p>
                 <Button>Saiba Mais</Button>
               </div>
             </div>
@@ -61,15 +63,16 @@ function Planos() {
             <div className="contentCardPlano">
               <div className="cardTextPlano">
                 <strong style={{ alignSelf: "start" }}>
-                  <p>PLANO PREVENTIVO</p>
+                  <p>PLANO PERSONALIZADO</p>
                 </strong>
                 <p>Assistencia 24 horas</p>
-                <p>6 à 11 dependentes</p>
-                <p>Ornamentação</p>
+                <p>Escolher qtd. de Dependentes</p>
+                <p>Ornamentação de sua escolha</p>
                 <p>Translado</p>
-                <p>Urna Clássica</p>
-                <p>Desconto na sala de Velório</p>
-                <p>Desconto no cerimonial</p>
+                <p>Urna de sua escolha</p>
+                <p>Sala de velorio de sua escolha</p>
+                <p>Cremação ou sepultamento</p>
+                <p>.</p>
                 <Button>Saiba Mais</Button>
               </div>
             </div>
