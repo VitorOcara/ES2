@@ -8,6 +8,7 @@ import linkedin from "../../assets/images/linkedin.png";
 import logo from "../../assets/images/logo-img.png";
 import logoTxt from "../../assets/images/logo-txt.png";
 import { Link } from "react-router-dom";
+import { Button } from "antd";
 
 const PageHeader: React.FC = () => {
   return (
@@ -36,11 +37,25 @@ const PageHeader: React.FC = () => {
           <img src={logoTxt} className="logo2" alt="texto" />
         </div>
         <div className="navigation">
-          <Link to="/"><h3>HOME</h3></Link>
-          <h3>QUEM SOMOS</h3>
-          <Link to="/services"><h3>SERVIÇOS</h3></Link>
-          <h3>PLANOS</h3>
-          <h3>PAGAMENTOS</h3>
+          <Link className="links" to="/">
+            <h3 >HOME</h3>
+          </Link>
+
+          <Link className="links" to="/quemSomos">
+              <h3 >QUEM SOMOS</h3>
+          </Link>
+
+          <Link className="links" to="/services">
+            <h3 >SERVIÇOS</h3>
+          </Link>
+
+          <Link className="links" to="/planos">
+            <h3 >PLANOS</h3>
+          </Link>
+
+          <Link className="links" to="/pagamentos">
+            <h3 >PAGAMENTOS</h3>
+          </Link>
         </div>
       </div>
     </header>

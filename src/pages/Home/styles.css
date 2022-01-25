@@ -1,9 +1,9 @@
-.container {
+.containerHome {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.body {
+.bodyHome {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
   width: 100%;
   height: 60vh;
 }
-.box {
+.boxHome {
   display: flex;
   align-items: center;
   width: 90%;
