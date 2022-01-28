@@ -38,7 +38,9 @@ const PlanoPersonalizado: React.FC = () => {
       Rua,
       Bairro,
     });
+    
     Swal.close();
+
   }
 
   return (
