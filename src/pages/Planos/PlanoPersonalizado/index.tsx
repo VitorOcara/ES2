@@ -1,8 +1,11 @@
 import { Button, Form, Input } from "antd";
+import Swal from "sweetalert2";
 import React, { useState } from "react";
 import Footer2 from "../../../components/Footer";
+import { database } from "../../../config/firebase";
 import PageHeader from "../../../components/PageHeader/";
 import "./styles.css";
+import { child, push, ref, set } from "firebase/database";
 
 const PlanoPersonalizado: React.FC = () => {
   const [Nome, setNome] = useState("");
@@ -17,18 +20,25 @@ const PlanoPersonalizado: React.FC = () => {
   const [Cerimonia, setCerimonia] = useState("");
 
   function submitForm() {
-    console.log(
+    const uid = push(child(ref(database), "posts")).key;
+    console.log(uid);
+    Swal.showLoading();
+
+    set(ref(database, "clientes/" + uid), {
       Nome,
-      DataNascimento,
       Cpf,
-      Rua,
-      Bairro,
+      DataNascimento,
       Associados,
       Ornamentacao,
       Translado,
       Urna,
-      Cerimonia
-    );
+      Cerimonia,
+    });
+    set(ref(database, "clientes/" + uid + "/endereco"), {
+      Rua,
+      Bairro,
+    });
+    Swal.close();
   }
 
   return (

@@ -1,21 +1,11 @@
 import { Button } from "antd";
 import React from "react";
+import { Link } from "react-router-dom";
 import Footer2 from "../../components/Footer";
 import PageHeader from "../../components/PageHeader";
 // import { getDatabase, ref, set, push, child } from "firebase/database";
 
 import "./styles.css";
-
-// function createCliente1() {
-//   const database = getDatabase();
-//   const uid = push(child(ref(database), "posts")).key;
-//   console.log(uid);
-//   const name = "joao";
-//   set(ref(database, "users/" + uid), {
-//     name: name,
-//     uid: uid,
-//   });
-// }
 
 function Planos() {
   return (
@@ -73,7 +63,10 @@ function Planos() {
                 <p>Sala de velorio de sua escolha</p>
                 <p>Cremação ou sepultamento</p>
                 <p>.</p>
-                <Button>Saiba Mais</Button>
+                <Link to="/planoPersonalizado">
+                  <Button>Saiba Mais</Button>
+                </Link>
+
               </div>
             </div>
           </div>
